@@ -136,7 +136,7 @@ const login = () => {
 
   } else {
 
-    mensaje.value = 'Acceso denegado. Usuario o contraseña incorrectos.'
+    mensaje.value = 'Los datos ingresados no coinciden con ningún usuario registrado del sistema.'
     tipoMensaje.value = 'error'
 
   }
